@@ -1,6 +1,6 @@
 var nodemailer = require('nodemailer'); 
 
-function data() {
+module.exports = function (cb) {
 
           sendEmail();
           
@@ -30,5 +30,5 @@ function data() {
         }
 }
 
-data();
+
 
